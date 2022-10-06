@@ -3,12 +3,51 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Great+Vibes&family=Passions+Conflict&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
+    
   </head>
+
   <body>
+     <h1><em>App para parejas</em></h1>
+
+   
+        
+  <section>
     <div id="root">
-      <h1>Hello world!</h1>
+     <p>Atrevete a <strong>disfrutar</strong> más con tu pareja</p>
+     <p>Con esta app podrás codificar mensajes, eligiendo un número clave </p>
+     <p>que <em>solo tu y tu pareja </em>podrán descifrar</p>
+     <p>Te recomendamos iniciar con palabras o pequeñas frases y atrevidas</p>
     </div>
+     <hr>
+  
+  
+    <main>
+      <form id="cifrador" class="cifrador" autocomplete="off">    
+        <label for="texto">Ingresa texto</label>
+        <input id="inputOriginal" type="text" name="text" placeholder="Escribe aqui" requiered />
+        <br>     
+        <label>Ingresa clave</label>
+        <input type="number" min="1" max="27" id="NumClave"><br>
+    
+    
+      
+        <button type="submit" class="btn btn-red" id="buttonEncode" >Cifrar</button> 
+        <span id="textoCifrado"></span><br>
+        <button type="submit" class="btn btn-purple" id="buttonDecode" >Decifrar</button> 
+        <span id="textoDescifrado"></span><br>
+      </form>
+    </main>
+
+    </section>
+
+
+    <footer>Adriana Rosas Santillan 1er proyecto :)</footer>
     <script src="index.js" type="module"></script>
+    
+  
   </body>
 </html>

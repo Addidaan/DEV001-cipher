@@ -6,23 +6,25 @@ const boton= document.getElementById("buttonEncode");
 const botonDes= document.getElementById("buttonDecode");
 
 
-
-
 boton.addEventListener("click", function(e){
     e.preventDefault();
-const clave= parseInt(document.getElementById("NumClave").value);
+const offset= parseInt(document.getElementById("NumClave").value);
 const input= document.getElementById("inputOriginal").value.toUpperCase();
 
-    cipher.encode(clave,input)
+let stringCifrado=cipher.encode(offset,input)
+document.getElementById("textoCifrado").innerText= stringCifrado;
    
 });
 
+
 botonDes.addEventListener("click", function(e){
     e.preventDefault();
-    const clave= parseInt(document.getElementById("NumClave").value);
-const input= document.getElementById("inputOriginal");
-    cipher.decode(clave,input)
- 
+    const offset= parseInt(document.getElementById("NumClave").value);
+const input= document.getElementById("inputOriginal").value.toUpperCase();
+    
+   let stringCifrado=cipher.decode(offset,input)
+    document.getElementById("textoDescifrado").innerText= stringCifrado;
+    
 });
 
 

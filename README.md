@@ -1,5 +1,64 @@
 # Cifrado César
 
+Quiénes son los principales usuarios de producto.
+Esta aplicacion esta dirigida a parajas que quieren agregar un poco de emocion y miesterio a su relacion.
+
+Cuáles son los objetivos de estos usuarios en relación con tu producto.
+Mandar mensajes cifrados a su pareja
+
+Cómo crees que el producto que estás creando está resolviendo sus problemas
+Les ayuda como un canal de comunicacion para mejorar su relacion
+
+
+
+FUNDAMENTOS DE JS
+Es un lenguaje de programacion que nos ayuda a aplicar la interaccion en nuestra pagina web.
+
+VARIABLES: Son contenedores para almacenar valores, la cual se declara usando la palabra reservada let o const seguida del nombre que se le quiera dar.
+Todas las variables deben llevar ; al final para indicar donde termina la declaracion. Y posteriormente despues del signo = podemos asignarle un valor.
+Las variables pueden tener distintos valores, tipos de datos como: string, que es un texto, "hola" donde el texto va entre comillas, number 8, el cual no lleva comillas, boolean verdadero/false, array que permite almacenar varios tipos de datos en una sola referencia, almacenados cada uno por comillas y separados por , y finalmente los objetos.
+
+CONDICIONALES:Las condicionales son estructuras de código que permiten comprobar si una expresión devuelve true o no, y después ejecuta un código diferente dependiendo del resultado. Siendo la mas comun if... else.
+La expresión dentro de if (... ) compara la variable con la cadena para ver si son iguales.
+ej 
+let helado = 'chocolate';
+if (helado === 'chocolate') {
+  alert('¡Sí, amo el helado de chocolate!');
+} else {
+  alert('Awwww, pero mi favorito es el de chocolate...');
+} 
+Si el resultado da true solo de ejecuta el primer bloque de codigo, si es falso el primer bloque se omite y se ejecuta el segundo bloque else.
+
+FUNCIONES: es la forma de agrupar una funcionalidad con un nombre determinado par poder llamarlo/utilizarlo despues, las cuales llevan () depues del nombre, si la funcion esta utilizando un argumento, se colocan dentro del parentesis, y si son varios se separan por una ,.
+
+EVENTOS Y MANIPULACION BASICA DEL DOM
+EVENTOS: Son partes de codigo que captan la interaccion en la web y permite que en respuesta a esa interaccion se ejecute cierto codigo.
+
+DOM: Facilita una representación estructurada del documento y define de qué manera los programas pueden acceder, al fin de modificar, tanto su estructura, estilo y contenido. El DOM da una representación del documento como un grupo de nodos y objetos estructurados que tienen propiedades y métodos. Esencialmente, conecta las páginas web a scripts o lenguajes de programación.El modelo de objeto de documento (DOM) proporciona otras formas de presentar, guardar y manipular este mismo documento. El DOM es una representación completamente orientada al objeto de la página web y puede ser modificado con un lenguaje de script como JavaScript.
+
+El DOM no es un lenguaje de programación pero sin él, el lenguaje JavaScript no tiene ningún modelo o noción de las páginas web, de la páginas XML ni de los elementos con los cuales es usualmente relacionado, es asi como se puede acceder y manipularlos utilizando el DOM y un lenguaje de escritura, como JavaScript.
+
+En el comienzo, JavaScript y el DOM estaban herméticamente enlazados, pero después se desarrollaron como entidades separadas. El contenido de la página es almacenado en DOM y el acceso y la manipulación se hace vía JavaScript, podría representarse aproximadamente así:
+
+API(web o página XML) = DOM + JS(lenguaje de script)
+
+Lo siguiente es una breve lista de los APIS comunes en la web y en las páginas escritas en XML utilizando el DOM.
+
+document.getElementById(id)
+element.getElementsByTagName(name)
+document.createElement(name)
+parentNode.appendChild(node)
+element.innerHTML
+element.style.left
+element.setAttribute
+element.element.getAttribute
+element.addEventListener
+window.content
+window.onload
+window.dump
+window.scrollTo
+
+BOILERPLATE: mecanismos para dividir programas JavaScript en módulos separados que se puedan importar cuando sea necesario
 ## Índice
 
 * [1. Objetivos de aprendizaje generales](#1-objetivos-de-aprendizaje-generales)
